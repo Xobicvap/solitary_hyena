@@ -1,0 +1,29 @@
+ok so... how do we want to handle variables for a user module? or structures?
+
+and... how would we do d&d combat? (for example)?
+ok so.. not only do we need *variables* in a user module... we need variable DEFINITIONS
+which i guess is the same thing
+no, we need TYPES
+and can we please get rid of the ALL CAPS for at least types?
+we also need a way in types (or var defs?) to make results without assigning  
+
+definition for type:
+  &dretch : { AC= 17, HP: 4?..32, ATTACKS: [1?..4, 1?..4, 2?..8],
+    SPECIAL: [
+      {darkness: {radius: 5}},
+       scare
+
+
+d&d combat
+  list monsters i.e. {"dretch": 8}
+  look up monsters in vars
+    HOW?
+    wow we're going to have to register and instantiate types!
+
+
+
+{
+  "user_modules": [
+    {
+      "type": "d&d",
+      "

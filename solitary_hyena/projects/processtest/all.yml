@@ -1,0 +1,32 @@
+---
+
+title: Box
+description: Get out of the box!
+
+entries:
+
+  - id: 1
+    text_template:
+      You are in a box.
+
+      What do?
+    user_template: 
+      2. Get out of the box.
+      3. Stay in the box.
+    var_defs:
+      STR = 1?..20
+
+  - id: 2
+    text_template:
+      You struggle with all your might to get out of the box...
+    user_template:
+      4 -> STR > 11
+      5 -> STR < 12 
+
+  - id: 3
+    text_template:
+      Yeah. Stay in the box. It's nice here.
+
+      Except... there's the little matter of your air.
+
+  
